@@ -21,7 +21,7 @@ public class BoardListServlet extends HttpServlet {
 		rd.forward(request, response);
 //		request.getRequestDispatcher(jsp).forward(request,response);
 		
-//		WEB-INF에 있으면 은닉화가 되어서 접근이 불가능하기 때문에 /list에 내용을 담아주는 느낌?
+//		WEB-INF에 있으면 은닉화가 되어서 접근이 불가능하기 때문에 /list에s 내용을 담아주는 느낌?
 //		원래는 localhost:8090/BoardVer1/WEB-INF/jsp/list.jsp로 접근해야하는데 은닉화때문에 불가능하도록 뜸
 //		근데 18,19,20이 존재하면 http://localhost:8090/BoardVer1/list 로도 접근이 가능
 		
