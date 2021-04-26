@@ -8,16 +8,17 @@
 </head>
 <body>
 	<h1>글쓰기</h1>
-	  <!--  action 갈곳      get이냐 post냐 -->
+	  <!--  action 갈곳 / get이냐 post냐 (두개뿐) -->
 	<form action="/write" method="post">
 		<div>
-		제목 : <input type ="text" name = "title">
+		제목 : <input type ="text" name = "title"> <!-- 키값 = "밸류값" -->
 		</div>
 		<div>
 		내용 : <textarea name ="ctnt" rows="10" cols="10"></textarea>
 		</div>
 		<div>
 		<input type ="submit" value="글쓰기">
+		<input type ="reset" value="초기화">
 		</div>
 	</form>
 </body>
